@@ -6,6 +6,10 @@ import static org.junit.Assert.assertEquals;
 
 public class SeleniumExecutorTest extends BaseSeleniumTest {
 
+
+
+
+
   @Test
   public void shouldExtractHelloWorldText() {
     webDriver.get("http://localhost:8089/index.html");
